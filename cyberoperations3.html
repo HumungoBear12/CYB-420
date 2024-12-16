@@ -1,0 +1,254 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>DPRK Resources</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+    <style>
+        #flex{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            align-items: center;        
+        }
+        #inner-flex{
+            width: 50%;
+           
+        }
+       #two{
+        font-size: 1rem;
+        margin-bottom: 0rem;
+       }
+       #img1{
+        width: 20rem;
+        height: 15rem;
+        border-radius: .75rem;
+        margin-left: -2rem;
+        margin-top: 5rem;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+       }
+    </style>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="homepage.html" class="logo"><strong>Cyber Operations - Samson Becenti</strong></a>
+								</header>
+
+							<!-- Banner -->
+								<section id="banner">
+									<div class="content">
+                                        <div id="flex">
+                                            <div style="width: 75%;">
+                                                <h1>North Korea Cyber Operations</h1>
+                                                <!-- <hr> -->
+                                                <h4>Cyber Operation: Bangladesh Bank Heist</h4>
+                                                <p style="margin-bottom: .5rem; color: black;font-weight: bold;">Operation Overview</p>
+                                                <p style="width: 90%;">The Bangladesh Bank Heist was a cyber operation believed to have been conducted by North Korea's Lazarus Group in 2016. The group attempted to steal around $1 billion from Bangladesh Central bank utilizing SWIFT (Society for Worldwide Interbank Financial Telecommunication), which is a messaging system that conducts the banks global interbank payments. Lazarus was able to get a hold of the bank's SWIFT network to begin conducting fraudulent transactions. Lazarus was able to steal $81 million before the bank stopped them. Majority of the money was found to have been sent to casinos in the Philippines but all the money was gone by the time official found out.  </p>
+                                                <p style="margin-bottom: .5rem; color: black;font-weight: bold;">Operation Goals</p>
+                                                <ul>
+                                                    <li>Infiltrate a financial institution</li>
+                                                    <li>Use malware and social engineering to gain access to transaction systems</li>
+                                                    <li>Execute fraudulent transactions without detection</li>
+                                                </ul>                                            
+                                            </div>
+                                            <div style="width: 25%;"> 
+                                                <img id="img1" src="https://cyberhoot.com/wp-content/uploads/2022/05/US-warns-against-North-Korean-hackers-posing-as-IT-freelancers.jpeg" alt="">
+                                            </div>
+                                        </div>
+                                        
+                                        <div id="flex">
+                                            <div id="inner-flex">
+                                                <h4>Offensive Cyber Strategy</h4>
+                                                <hr style="width: 80%; margin-bottom: 1rem;">
+                                                <h4>Strategy Goals:</h4>
+                                                <p style="width: 90%">The goals of cyber operations like the Bangladesh bank heist is to steal from and disrupt a nation-state's financial infrastructure. The Lazarus group infiltrated the bank's SWIFT network to carry out theft without detection.</p>
+
+                                                <!-- <ul>
+                                                    <li>Counter-intelligence and disruption of GhostSecret’s capabilities.</li>
+                                                    <li>Exploit vulnerabilities in North Korean systems.</li>
+                                                </ul> -->
+
+                                                <h4>Recommended Offensive Tools:</h4>
+                                                <ul>
+                                                    <li><strong>The Metasploit Framework</strong> (Access and Escalation Tool)
+                                                        <ul>
+                                                            <li style="width: 90%">The Metasploit Framework would likely be the best logical access and escalation tool in this case, as it is very customizable. It would be able to help hackers both gain access to financial networks and escalate their privilages within the network. The framework also offers post accessing modules that would help the hackers maintain access or in this case, allow Lazarus to get closer in reaching their initial goal of $1 billion.</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><strong>HTTPS or DNS Common Protocols</strong> (Exfiltration Tool)
+                                                        <ul>
+                                                            <li style="width: 90%">Utilizing common protocols such as HTTP or DNS would allow hackers to exfiltrate data without triggering alarms since normal network traffic often use these protocols. In this case, it would allow Lazarus to mask data theft within SWIFT's regular traffic patterns, allowing them to stay undetected longer.</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><strong>Adding "Authorized Access"</strong> (Sustainment Tool)
+                                                        <ul>
+                                                            <li style="width: 90%">Adding "authorized" access would allow hackers to create or manipulate legitimate accounts within a bank's system or in this case the SWIFT networking. Creating or using accounts with higher access privilages would allow Lazarus to continually initiate or approve transactions as if they are legitimate transactions. This would reduce the risk of being detected since the transactions would appear to come from "authorized" sources and allow ongoing access which could have helped Lazarus reach the goal of $1 billion.</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                                <h4>Legal Considerations:</h4>
+                                                <ul>
+                                                    <li><strong>Article 2(4) of UN Charter:</strong> This offensive strategy would be considered as a violation of the UN Charter's principle of "non-interference with the sovereignty of other nations", especially when disruption or damage is caused to a nation-state's critical infrastructure, in this case financial institutions</li>
+                                                    <li><strong>International Financial Regulations:</strong> The Financial Action Task Force has blacklisted North Korea due to their involvement in financial crimes. The blacklisting reduces the nation-state's access to the international financial systems and subjects North Korea to increased scrutiny.   </li>
+                                                </ul>
+                                            </div>
+                                            <div id="inner-flex">
+                                                <h4>Defensive Cyber Strategy</h4>
+                                                <hr style="width: 80%; margin-bottom: 1rem;">
+                                                <h4>Strategy Goals:</h4>
+                                                <p>The goal of the defensive cyber strategy is to prevent disruption of a nation-state's financial infrastructure by ensuring the systems stay up to date and detect suspicious activity before its too late.</p>
+
+
+                                                <!-- <ul>
+                                                    <li>Prevent espionage and data theft.</li>
+                                                    <li>Real-time monitoring and proactive threat mitigation.</li>
+                                                </ul> -->
+                                                <h4>Recommended Defensive Tools/Techniques:</h4>
+                                                <ul>
+                                                    <li><strong>System Patching</strong>
+                                                        <ul>
+                                                            <li>Ensuring that key systems are actively being patched is a direct defense against tools such as Metasploit and CANVAS. System that go unpatched for a period of time begin to deveop vulnerabilites which tools like Metasploit take advatange of. Installing the most recent system patches is a easy technique to ensure all system vulnerabilities stay patched.</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><strong>Tighter Security Screening</strong> (e.g. Multi-Factor Auth.)
+                                                        <ul>
+                                                            <li>Security screening tools such as multi-factor authentication would require a second form of authentication other than a password to gain access to a system. Extra authentication would raise the difficulty of gaining access to a system though attacks such as phishing. </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><strong>Security Information and Event Management System</strong> (e.g. IBM QRadar)
+                                                        <ul>
+                                                            <li>A combination of security information management and security event management that is used to analyze security logs across the a network, in this case the SWIFT network. SIEM allows for real time monitoring and alerts for suspicious account activity that would be considered unauthorized activity. Failure to patch and secure systems could lead to legal consequences.</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                                <h4>Legal Considerations:</h4>
+                                                <ul>
+                                                    <li><strong>Gramm-Leach-Bliley Act:</strong> The Gramm-Leach-Bliley Act's goal is to address privacy concerns relating to consumer financial privacy. It requires financial agencies to implement the necessary security to maintain secure systems and protect customers sensitive information. </li>
+                                                    <li><strong>PCI-DSS:</strong> Payment Card Industry Data Security Standard is a set of guidelines that can be applied to protecting sensitive authentication data, making MFA a common requirement to ensure that only authorized users can access a banks sensitive data.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+									</div>
+									
+								</section>
+
+							
+
+							
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
+
+							<!-- Menu -->
+                            <nav id="menu">
+                                <header class="major">
+                                    <h2>Menu</h2>
+                                </header>
+                                <ul>
+                                    <li><a href="homepage.html">Home Page</a></li>
+                                    <li><a href="missionstatementpage.html">Mission Statement</a></li>
+                                    <li>
+                                        <span class="opener">Part 1: North Korea Infrastructure</span>
+                                        <ul class="dropdown">
+                                            <li><a href="cyberhierarchy.html">Cyber-Hierarchy</a></li>
+                                            <li><a href="operativespage.html">Operatives</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="opener">Part 2: Doctrine and Stakeholders</span>
+                                        <ul class="dropdown">
+                                            <li><a href="usdoctorinepage.html">US Doctorine</a></li>
+                                            <li><a href="nato-eudoctorinepage.html">Natu-EU Docterine</a></li>
+                                            <li><a href="nkdoctorinepage.html">North Korea Docterine</a></li>	
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="opener">Part 3: Operational Plans</span>                                    <!-- Dropdown Menu -->
+                                        <ul class="dropdown">
+                                            <li><a href="cyberoperations.html">GhostSecret</a></li>
+                                            <li><a href="cyberoperations2.html">DeTankZone</a></li>
+                                            <li><a href="cyberoperations3.html">Bangladesh Heist</a></li>
+                                            <li><a href="cyberoperations4.html">DarkSeoul</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="opener">Part 4: Threat Assessment</span>                                    <!-- Dropdown Menu -->
+                                        <ul class="dropdown">
+                                            <li><a href="ncf.html">National Cyber Force</a></li>	
+                                            <li><a href="uscybercom.html">U.S. Cyber Command</a></li>
+                                            <li><a href="CSE.html">Communications Security Establishment</a></li>
+                                            <li><a href="frenchcybercom.html">French COMCYBER</a></li>
+                                        </ul>
+                                    </li>
+                                <li>
+                                    <span class="opener">Part 5: Planning and Deployment</span>                                    <!-- Dropdown Menu -->
+                                    <ul class="dropdown">
+                                        <li><a href="cyberchallenge1.html">CI Attacks</a></li>
+                                        <li><a href="cyberchallenge2.html">Challenge 2</a></li>
+                                        <li><a href="cyberchallenge3.html">Challenge 3</a></li>
+                                        <li><a href="cyberchallenge4.html">Challenge 4</a></li>
+                                    </ul>
+                                </li>
+                                    <li><a href="riskevaluation.html">Risk Evaluation</a></li>
+                                    <li>
+                                        <span class="opener">Training Programs</span>                                    <!-- Dropdown Menu -->
+                                        <ul class="dropdown">
+                                            <li><a href="training1.html">Program 1</a></li>
+                                            <li><a href="training2.html">Program 2</a></li>
+                                            <li><a href="training3.html">Program 3</a></li>
+                                            <li><a href="training4.html">Program 4</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li><a href="resourcepage.html">Resources</a></li>		
+                                </ul>
+                            </nav>
+
+							
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
